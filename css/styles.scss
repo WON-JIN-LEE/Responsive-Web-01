@@ -64,8 +64,10 @@ img {
   background-color: transparent;
   z-index: var(--z-fixed);
 }
+
 .main-bg {
   height: 100vh;
+  // background: url(/img/backimg.jpg) center/cover no-repeat;
 
   &__img {
     position: absolute;
@@ -126,10 +128,10 @@ img {
     cursor: pointer;
     font-size: 1.5rem;
   }
-  /*Aparecer menu*/
 
+  /*Aparecer menu*/
   .show {
-    top: $header-height;
+    top: 4rem;
   }
 }
 
